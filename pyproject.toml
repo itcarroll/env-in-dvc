@@ -1,0 +1,11 @@
+[tool.hatch.envs.default]
+skip-install = true
+dependencies = [
+  "xarray",
+]
+extra-dependencies = [
+  "ipykernel",
+]
+
+[tool.hatch.envs.default.scripts]
+install = "python -m ipykernel install --user --name=test"

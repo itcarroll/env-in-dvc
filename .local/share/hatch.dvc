@@ -1,0 +1,6 @@
+outs:
+- md5: 210659f4906dec930441c83524f6477c.dir
+  size: 262205867
+  nfiles: 12309
+  hash: md5
+  path: hatch
