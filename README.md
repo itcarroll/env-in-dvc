@@ -4,6 +4,18 @@
 mamba install -c conda-forge dvc dvc-s3 hatch
 ```
 
+Observations:
+  1: github and gitlab actions have implemented caching for commonly used dependencies, somehow
+  2: try the hatch-pip-compile lock to resolve locking for hatch
+
+Questions:
+  1: is this correct order for speed of environment creation (slow to fast)
+    - solving environment
+    - downloading
+    - installing
+  2: is dvc changing the exec bit or not?
+
+
 ## structures
 
 1. set up in project
